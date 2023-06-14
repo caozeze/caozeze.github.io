@@ -4,7 +4,7 @@
   flex-direction: row-reverse;
 }
 .profile .profile-content {
-  width: 50%;
+  width: 100%;
   margin: 0 $margin-l-0 0 0;
 }
 .profile .profile-content .profile-title {
@@ -12,8 +12,11 @@
   margin-bottom: $margin-m-0;
 }
 .profile .profile-content .profile-body {
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: $margin-l-1;
+}
+.profile .profile-content .profile-body {
+  line-height: 1.35rem;
 }
 .profile .profile-content .profile-link {
   margin-top: 0;
@@ -21,6 +24,28 @@
 }
 .profile .profile-image {
   width: 50%;
+}
+.rest-profile {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.rest-profile .profile-rest-content {
+  width: 100%;
+}
+.rest-profile .profile-rest-content .profile-education-entry {
+  display: flex;
+  justify-content: space-between;
+}
+.rest-profile .profile-rest-content .profile-education-title {
+  margin-top: 0;
+  margin-bottom: $margin-m-0;
+}
+.rest-profile .profile-rest-content .profile-education-body {
+  margin-top: 20px;
+  margin-bottom: $margin-l-1;
+}
+.rest-profile .profile-rest-content .profile-education-body {
+  line-height: 1.35rem;
 }
 @media (max-width: 480px) {
   .profile {
