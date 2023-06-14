@@ -1,5 +1,5 @@
 .profile {
-  margin-top: $margin-primary;
+  margin-top: $margin-l-1;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -35,6 +35,23 @@
 .rest-profile .profile-rest-content .profile-education-entry {
   display: flex;
   justify-content: space-between;
+  text-align: left;
+  align-items: center;
+  border: none;
+}
+.rest-profile .profile-rest-content .profile-education-entry table,
+.rest-profile .profile-rest-content .profile-education-entry td,
+.rest-profile .profile-rest-content .profile-education-entry th {
+  border: none;
+}
+.rest-profile .profile-rest-content .profile-education-entry td {
+  border: none;
+}
+.rest-profile .profile-rest-content .profile-education-entry td:last-child {
+  text-align: right;
+}
+.rest-profile .profile-rest-content .profile-education-entry td:nth-child(2) {
+  text-align: center;
 }
 .rest-profile .profile-rest-content .profile-education-title {
   margin-top: 0;
