@@ -32,36 +32,54 @@
 .rest-profile .profile-rest-content {
   width: 100%;
 }
-.rest-profile .profile-rest-content .profile-education-entry {
+.rest-profile .profile-rest-content .profile-rest-award-and-cert {
   display: flex;
-  justify-content: space-between;
-  text-align: left;
   align-items: center;
   border: none;
 }
-.rest-profile .profile-rest-content .profile-education-entry table,
-.rest-profile .profile-rest-content .profile-education-entry td,
-.rest-profile .profile-rest-content .profile-education-entry th {
+.rest-profile .profile-rest-content .profile-rest-award-and-cert table,
+.rest-profile .profile-rest-content .profile-rest-award-and-cert td,
+.rest-profile .profile-rest-content .profile-rest-award-and-cert th {
   border: none;
 }
-.rest-profile .profile-rest-content .profile-education-entry td {
+.rest-profile .profile-rest-content .profile-rest-award-and-cert td {
   border: none;
 }
-.rest-profile .profile-rest-content .profile-education-entry td:last-child {
+.rest-profile .profile-rest-content .profile-rest-award-and-cert td:last-child {
   text-align: right;
 }
-.rest-profile .profile-rest-content .profile-education-entry td:nth-child(2) {
+.rest-profile .profile-rest-content .profile-rest-award-and-cert td:nth-child(2) {
   text-align: center;
 }
-.rest-profile .profile-rest-content .profile-education-title {
+.rest-profile .profile-rest-content .profile-rest-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+}
+.rest-profile .profile-rest-content .profile-rest-entry table,
+.rest-profile .profile-rest-content .profile-rest-entry td,
+.rest-profile .profile-rest-content .profile-rest-entry th {
+  border: none;
+}
+.rest-profile .profile-rest-content .profile-rest-entry td {
+  border: none;
+}
+.rest-profile .profile-rest-content .profile-rest-entry td:last-child {
+  text-align: right;
+}
+.rest-profile .profile-rest-content .profile-rest-entry td:nth-child(2) {
+  text-align: center;
+}
+.rest-profile .profile-rest-content .profile-rest-title {
   margin-top: 0;
   margin-bottom: $margin-m-0;
 }
-.rest-profile .profile-rest-content .profile-education-body {
+.rest-profile .profile-rest-content .profile-rest-body {
   margin-top: 20px;
   margin-bottom: $margin-l-1;
 }
-.rest-profile .profile-rest-content .profile-education-body {
+.rest-profile .profile-rest-content .profile-rest-body {
   line-height: 1.35rem;
 }
 @media (max-width: 480px) {

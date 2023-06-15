@@ -281,7 +281,7 @@ input {
   border: none;
 }
 body {
-  font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
+  font-family: 'Arial', 'Noto Sans SC', helvetica, arial;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -431,7 +431,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 .post-list-item .post-title {
   flex-grow: 1;
-  font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
+  font-family: 'Arial', 'Noto Sans SC', helvetica, arial;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -580,7 +580,7 @@ input[type="search"]::-webkit-search-results-decoration {
   color: #002a56;
 }
 .profile .profile-content .profile-body {
-  font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
+  font-family: 'Arial', 'Noto Sans SC', helvetica, arial;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -605,43 +605,61 @@ input[type="search"]::-webkit-search-results-decoration {
 .rest-profile .profile-rest-content {
   width: 100%;
 }
-.rest-profile .profile-rest-content .profile-education-entry {
+.rest-profile .profile-rest-content .profile-rest-award-and-cert {
   display: flex;
-  justify-content: space-between;
-  text-align: left;
   align-items: center;
   border: none;
 }
-.rest-profile .profile-rest-content .profile-education-entry table,
-.rest-profile .profile-rest-content .profile-education-entry td,
-.rest-profile .profile-rest-content .profile-education-entry th {
+.rest-profile .profile-rest-content .profile-rest-award-and-cert table,
+.rest-profile .profile-rest-content .profile-rest-award-and-cert td,
+.rest-profile .profile-rest-content .profile-rest-award-and-cert th {
   border: none;
 }
-.rest-profile .profile-rest-content .profile-education-entry td {
+.rest-profile .profile-rest-content .profile-rest-award-and-cert td {
   border: none;
 }
-.rest-profile .profile-rest-content .profile-education-entry td:last-child {
+.rest-profile .profile-rest-content .profile-rest-award-and-cert td:last-child {
   text-align: right;
 }
-.rest-profile .profile-rest-content .profile-education-entry td:nth-child(2) {
+.rest-profile .profile-rest-content .profile-rest-award-and-cert td:nth-child(2) {
   text-align: center;
 }
-.rest-profile .profile-rest-content .profile-education-title {
+.rest-profile .profile-rest-content .profile-rest-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+}
+.rest-profile .profile-rest-content .profile-rest-entry table,
+.rest-profile .profile-rest-content .profile-rest-entry td,
+.rest-profile .profile-rest-content .profile-rest-entry th {
+  border: none;
+}
+.rest-profile .profile-rest-content .profile-rest-entry td {
+  border: none;
+}
+.rest-profile .profile-rest-content .profile-rest-entry td:last-child {
+  text-align: right;
+}
+.rest-profile .profile-rest-content .profile-rest-entry td:nth-child(2) {
+  text-align: center;
+}
+.rest-profile .profile-rest-content .profile-rest-title {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
-.rest-profile .profile-rest-content .profile-education-body {
+.rest-profile .profile-rest-content .profile-rest-body {
   margin-top: 20px;
   margin-bottom: 2rem;
 }
-.rest-profile .profile-rest-content .profile-education-title {
+.rest-profile .profile-rest-content .profile-rest-title {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 2rem;
   color: #002a56;
 }
-.rest-profile .profile-rest-content .profile-education-body {
-  font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
+.rest-profile .profile-rest-content .profile-rest-body {
+  font-family: 'Arial', 'Noto Sans SC', helvetica, arial;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -722,7 +740,7 @@ input[type="search"]::-webkit-search-results-decoration {
   padding-top: 1rem;
 }
 .search-result-container .search-result {
-  font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
+  font-family: 'Arial', 'Noto Sans SC', helvetica, arial;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -818,7 +836,7 @@ h6 {
   color: #002a56;
 }
 p {
-  font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
+  font-family: 'Arial', 'Noto Sans SC', helvetica, arial;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -875,7 +893,7 @@ blockquote blockquote {
   margin-bottom: 0;
 }
 .post-content li {
-  font-family: 'Inter', 'Noto Sans SC', helvetica, arial;
+  font-family: 'Arial', 'Noto Sans SC', helvetica, arial;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
