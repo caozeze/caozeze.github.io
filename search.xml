@@ -18,4 +18,10 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>Projects</title>
+    <url>/Projects/index.html</url>
+    <content><![CDATA[<p>&lt;%- partial(‘pages&#x2F;certificates’) %&gt;</p>
+]]></content>
+  </entry>
 </search>
