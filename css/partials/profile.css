@@ -45,11 +45,11 @@
 .rest-profile .profile-rest-content .profile-rest-award-and-cert td {
   border: none;
 }
-.rest-profile .profile-rest-content .profile-rest-award-and-cert td:last-child {
-  text-align: right;
-}
 .rest-profile .profile-rest-content .profile-rest-award-and-cert td:nth-child(2) {
   text-align: center;
+}
+.rest-profile .profile-rest-content .profile-rest-award-and-cert td:last-child {
+  text-align: right;
 }
 .rest-profile .profile-rest-content .profile-rest-entry {
   display: flex;
@@ -65,19 +65,21 @@
 .rest-profile .profile-rest-content .profile-rest-entry td {
   border: none;
 }
+.rest-profile .profile-rest-content .profile-rest-entry td:nth-child(2) {
+  text-align: center;
+}
 .rest-profile .profile-rest-content .profile-rest-entry td:last-child {
   text-align: right;
 }
-.rest-profile .profile-rest-content .profile-rest-entry td:nth-child(2) {
-  text-align: center;
+.rest-profile .profile-rest-content .profile-rest-entry .two-line-table {
+  width: 200%;
 }
 .rest-profile .profile-rest-content .profile-rest-title {
   margin-top: 0;
   margin-bottom: $margin-m-0;
 }
 .rest-profile .profile-rest-content .profile-rest-body {
-  margin-top: 20px;
-  margin-bottom: $margin-l-1;
+  margin-bottom: $margin-m-1;
 }
 .rest-profile .profile-rest-content .profile-rest-body {
   line-height: 1.35rem;

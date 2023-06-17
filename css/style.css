@@ -401,8 +401,8 @@ input[type="search"]::-webkit-search-results-decoration {
   color: #002a56;
 }
 .footer .footer-text {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 .post-list a {
@@ -618,11 +618,11 @@ input[type="search"]::-webkit-search-results-decoration {
 .rest-profile .profile-rest-content .profile-rest-award-and-cert td {
   border: none;
 }
-.rest-profile .profile-rest-content .profile-rest-award-and-cert td:last-child {
-  text-align: right;
-}
 .rest-profile .profile-rest-content .profile-rest-award-and-cert td:nth-child(2) {
   text-align: center;
+}
+.rest-profile .profile-rest-content .profile-rest-award-and-cert td:last-child {
+  text-align: right;
 }
 .rest-profile .profile-rest-content .profile-rest-entry {
   display: flex;
@@ -638,19 +638,21 @@ input[type="search"]::-webkit-search-results-decoration {
 .rest-profile .profile-rest-content .profile-rest-entry td {
   border: none;
 }
+.rest-profile .profile-rest-content .profile-rest-entry td:nth-child(2) {
+  text-align: center;
+}
 .rest-profile .profile-rest-content .profile-rest-entry td:last-child {
   text-align: right;
 }
-.rest-profile .profile-rest-content .profile-rest-entry td:nth-child(2) {
-  text-align: center;
+.rest-profile .profile-rest-content .profile-rest-entry .two-line-table {
+  width: 200%;
 }
 .rest-profile .profile-rest-content .profile-rest-title {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
 .rest-profile .profile-rest-content .profile-rest-body {
-  margin-top: 20px;
-  margin-bottom: 2rem;
+  margin-bottom: 0.75rem;
 }
 .rest-profile .profile-rest-content .profile-rest-title {
   font-size: 1.5rem;
