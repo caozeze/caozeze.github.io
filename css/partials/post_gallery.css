@@ -20,6 +20,13 @@
 }
 .post-gallery-item .post-img {
   width: 50%;
+  overflow: hidden;
+}
+.post-gallery-item .post-img .post-img-real {
+  transition: transform 0.2s linear;
+}
+.post-gallery-item .post-img:hover .post-img-real {
+  transform: scale(1.03);
 }
 @media (max-width: 480px) {
   .post-gallery-item {

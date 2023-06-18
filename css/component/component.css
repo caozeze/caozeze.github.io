@@ -26,7 +26,7 @@ hr {
 }
 .post-tag {
   border: $line-third solid $color-text-primary;
-  margin-right: $margin-s-2;
+  margin-right: $margin-m-0;
   margin-bottom: $margin-s-2;
   padding: $margin-s-2 $margin-m-0 $margin-s-2 $margin-m-0;
   border-radius: $margin-m-2;
@@ -35,8 +35,10 @@ hr {
   background-image: none !important;
 }
 .post-tag:hover {
-  background-color: $color-text-primary;
+  background-color: $color-search-marker;
+  transition: transform 0.2s linear;
+  transform: scale(1.1);
 }
 .post-tag:hover a {
-  color: $color-background;
+  color: $color-text-primary;
 }
